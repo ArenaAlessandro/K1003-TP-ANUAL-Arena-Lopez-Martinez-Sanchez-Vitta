@@ -87,7 +87,7 @@ void calcularCocientes(int votosListas[], float porcentajes[], float cocientes[]
     {
         for (int j = 0; j < cantidadBancas; j++)
         {
-            cocientes[i][j] = -1; // ARREGLADOO
+            cocientes[i][j] = -1; // ARREGLADO
         }
         if (porcentajes[i] >= 3.0)
         {
@@ -202,7 +202,7 @@ for (int i = 0; i < cantidadListas; i++)
         porcentajes[i] = 0;
 }
 
-// Ordenar listas por cantidad de votos
+// Ordenar listas por cantidad de votos terminada
 for (int i = 0; i < cantidadListas; i++)
     indices[i] = i;
 
